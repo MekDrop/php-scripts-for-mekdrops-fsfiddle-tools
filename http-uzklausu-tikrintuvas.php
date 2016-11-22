@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+
 ini_set('memory_limit', '100M');
 set_time_limit(0);
 
