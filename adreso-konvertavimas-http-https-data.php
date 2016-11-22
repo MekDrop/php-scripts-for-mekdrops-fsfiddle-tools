@@ -1,5 +1,7 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
+
 $url = isset($_SERVER['HTTP_FETCH_URL'])?$_SERVER['HTTP_FETCH_URL']:null;
 
 if ($url) {
